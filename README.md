@@ -1,7 +1,9 @@
 # Attendance-check-model
 Image Detection과 CNN을 활용한 비대면 수업 자동 출석체크 시스템
 
+<center>
 <img width="757" alt="image" src="https://user-images.githubusercontent.com/77783047/162958154-038be211-0144-4598-9a24-42718683348e.png">
+</center>
 
 # Overview
 최종 출석체크 시스템은 크게 두 파트로 구성됩니다. 
@@ -18,6 +20,7 @@ Kaggle의 Face Mask Detection 데이터셋과 직접 크롤링한 데이터 총 
 
 # Face Detection by Yolov5
 객체의 class와 위치(Bounding Box)를 빠르게 찾는 Yolov5의 pre-trained model을 가져와 줌 화면 속 다양한 얼굴들-마스크를 쓴 얼굴, 측면만 나온 얼굴 등-을 인식할 수 있게 학습시켰습니다. 
+
 <img width="756" alt="image" src="https://user-images.githubusercontent.com/77783047/162958504-6ca12444-10bf-403f-ab82-d9c07391ba40.png">
 <img width="759" alt="image" src="https://user-images.githubusercontent.com/77783047/162958530-f8b1cb13-f4b7-4843-9df7-ccad7216a7d9.png">
 
@@ -43,6 +46,8 @@ CNN모델을 학습하기 위해선 실제 수강생들의 얼굴 이미지 데�
 
 ## Training model
 * Convolutional Layer 4층, 활성함수는 ReLU, Optimizer는 Adam, Dropout 적용
+
+
 <img width="701" alt="image" src="https://user-images.githubusercontent.com/77783047/162959396-5f786ce3-8b57-42e2-bb72-1ef999845c37.png">
 
 ## Results
@@ -54,6 +59,8 @@ CNN모델을 학습하기 위해선 실제 수강생들의 얼굴 이미지 데�
 
 ## Final Output
 최종 출석체크 시스템의 로직은 다음과 같습니다.
+
+
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/77783047/162959593-b38cfc7f-f797-45f2-8749-5a1530f686de.png">
 
 # Conclusion 
