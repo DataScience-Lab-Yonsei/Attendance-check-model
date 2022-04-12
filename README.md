@@ -12,7 +12,7 @@ Image Detection과 CNN을 활용한 비대면 수업 자동 출석체크 시스�
 <img width="756" alt="image" src="https://user-images.githubusercontent.com/77783047/162958205-4456f7e9-2aa9-446d-953a-234a557ff341.png">
 
 # Data Preprocessing
-Kaggle의 Face Mask Detection 데이터셋과 직접 크롤링한 데이터 총 1,000여장에 데이터 증강을 적용하여 최종 6,527장의 데이터셋을 확보했습니다. 이때, 이목구비의 위치를 바꿔 정확도를 떨어트릴 것이라는 가설을 바탕으로 vflip과 rotation 기법은 제외하고, hflip과 grayscale 기법만을 적용하여 학습을 진행했습니다. 
+[Kaggle의 Face Mask Detection 데이터셋](https://www.kaggle.com/datasets/andrewmvd/face-mask-detection)과 직접 크롤링한 데이터 총 1,000여장에 데이터 증강을 적용하여 최종 6,527장의 데이터셋을 확보했습니다. 이때, 이목구비의 위치를 바꿔 정확도를 떨어트릴 것이라는 가설을 바탕으로 vflip과 rotation 기법은 제외하고, hflip과 grayscale 기법만을 적용하여 학습을 진행했습니다. 
 
 <img width="758" alt="image" src="https://user-images.githubusercontent.com/77783047/162958279-0424f596-d614-4886-bfc9-076adcaaa405.png">
 <img width="757" alt="image" src="https://user-images.githubusercontent.com/77783047/162958400-30e8795a-10e7-4387-ae43-f01219b5b21d.png">
