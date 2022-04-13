@@ -1,5 +1,10 @@
 # Attendance-check-model
 Image Detection과 CNN을 활용한 비대면 수업 자동 출석체크 시스템
+<center>
+<img width="757" alt="image" src="https://user-images.githubusercontent.com/77783047/162958154-038be211-0144-4598-9a24-42718683348e.png">
+</center>
+
+
 # install
 ```
 # Image objectation을 위한 yolov5
@@ -14,9 +19,7 @@ https://drive.google.com/file/d/1-EUAMx7jI1h6dKuh-DaJircK2cCOGfjU/view?usp=shari
 # requirement
  Python>=3.7.0 environment, including PyTorch>=1.7.
 
-<center>
-<img width="757" alt="image" src="https://user-images.githubusercontent.com/77783047/162958154-038be211-0144-4598-9a24-42718683348e.png">
-</center>
+
 
 
  
