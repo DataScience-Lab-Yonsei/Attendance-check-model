@@ -13,10 +13,18 @@ pip install -r requirements.txt  # install
 https://drive.google.com/file/d/1-EUAMx7jI1h6dKuh-DaJircK2cCOGfjU/view?usp=sharing
 ```
 # requirement
- Python>=3.7.0 environment, including PyTorch>=1.7.
+ Python>=3.7.0 environment, including PyTorch>=1.7., 화면 캡처가 가능한 Local 환경
  
 ---
-
+# 사용방법
+```
+1. git clone https://github.com/ultralytics/yolov5
+2. yolov5/model 폴더에 CNN 모델 가중치 저장(~.h5)
+3. yolov5 폴더에 yolov5s.pt 저장(yolov5 small 모델 가중치)
+4. mv FinalModel.py ./yolov5
+5. python FinalModel.py
+```
+---
 Image Detection과 CNN을 활용한 비대면 수업 자동 출석체크 시스템
 <center>
 <img width="757" alt="image" src="https://user-images.githubusercontent.com/77783047/162958154-038be211-0144-4598-9a24-42718683348e.png">
